@@ -65,8 +65,6 @@
 
 
 
-
-				
 				const count = document.getElementById("count");
 
 				incrementVisitsCount();
@@ -85,14 +83,4 @@
 					count.innerText = localStorage.getItem("visits");
 				}
 				
-
-
-
-
-
-
-
-
-
-
 })(jQuery);
